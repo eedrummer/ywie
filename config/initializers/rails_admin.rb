@@ -40,4 +40,11 @@ RailsAdmin.config do |config|
       field :gender
     end
   end
+
+  config.model 'Condition' do
+    list do
+      field :name
+      field :onset
+    end
+  end
 end

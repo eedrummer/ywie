@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  onset: 2015-11-09
+  name: MyString
+  patient_id: 
+
+two:
+  onset: 2015-11-09
+  name: MyString
+  patient_id: 
