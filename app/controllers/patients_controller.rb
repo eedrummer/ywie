@@ -5,6 +5,6 @@ class PatientsController < ApplicationController
   end
 
   def index
-    render json: Patient.all
+    render json: Patient.all, :include => [:conditions]
   end
 end
